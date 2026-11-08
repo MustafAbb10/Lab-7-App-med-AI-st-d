@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            // AI-assisted structure: Creates and starts the quiz game.
             QuizGame game = new QuizGame();
             game.StartQuiz();
         }

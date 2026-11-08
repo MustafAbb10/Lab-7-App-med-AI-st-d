@@ -1,22 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Lab_7_App_med_AI_stöd
+﻿namespace Lab_7_App_med_AI_stöd
 {
     internal class QuizQuestion
-
-
     {
+        public string Question { get; set; }
+        public string CorrectAnswer { get; set; }
 
-        public string question {  get; set; }
-
-        public string correctAnswer { get; set; }
-
+        // AI-assisted structure: Constructor stores the question and correct answer.
         public QuizQuestion(string question, string correctAnswer)
         {
-            this.question = question;
-            this.correctAnswer = correctAnswer;
+            Question = question;
+            CorrectAnswer = correctAnswer;
         }
     }
 }
